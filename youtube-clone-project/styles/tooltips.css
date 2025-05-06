@@ -1,0 +1,53 @@
+.channel-picture {
+  display: inline-block;
+  position: relative;
+}
+
+.channel-picture .pp-tooltip {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  width: 200px;
+  font-family: Roboto, Arial;
+  padding: 8px 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.channel-picture:hover .pp-tooltip {
+  opacity: 1;
+}
+
+.tooltip-image {
+  width: 50px;
+  margin-right: 8px;
+  align-items: center;
+}
+
+.tooltip-img {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.tooltip-c2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.chan-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sub-count {
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+}
